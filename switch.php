@@ -16,7 +16,7 @@ switch($a){
 	case 1: echo 'vienas'; break;
 	case 2: echo 'du'; break;
 	case 3: echo 'trys'; break;
-	default: echo 'itasatvejis';
+	default: echo 'kitasatvejis';
 }
 echo '<br>';
 $a = 'Jonas';

@@ -1,0 +1,29 @@
+.container {
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    margin-top: 50px ;
+    background: #cccccc;
+    border: 1px solid gainsboro ;
+}
+
+body {
+    background: cornflowerblue;
+}
+h1 {
+    font-family: 'Oswald', sans-serif;
+}
+.text-field {
+    display: block;
+}
+.text-label{
+    font-size: 14px;
+    font-family: Verdana Gabriola Tahoma;
+}
+.migtukas{
+    padding: 5px 2px;
+    background: red;
+    color: green;
+    border: 1px solid blueviolet;
+}

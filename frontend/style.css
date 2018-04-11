@@ -1,0 +1,39 @@
+.greentext {
+    color: green;
+}
+.orangetext {
+    color: orange;
+}
+.firstparagraph{
+    font-size: 14px;
+    font-weight: bold;
+}
+.secondparagraph{
+    font-size: 31px;
+}
+.photo {
+    width: 400px;
+    /*height: 100px;*/
+}
+.boldtext {
+    font-weight: bold;
+}
+.table, .table td {
+    border: 3px solid #00c3ff;
+    border-collapse: collapse;
+}
+.stylius {
+    background-color: gold;
+}
+.stylius1 {
+    background-color: green;
+}
+.stylius2 {
+    background-color: red;
+}
+/*body {*/
+    /*background-image: url("logo1.jpg");*/
+/*}*/
+p {
+    background-color: y;
+}

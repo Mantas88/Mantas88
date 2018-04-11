@@ -1,0 +1,13 @@
+#main {
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    display: -webkit-flex;
+    display: flex;
+}
+
+#main div {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}

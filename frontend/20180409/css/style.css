@@ -1,0 +1,37 @@
+body{
+    background: #cccccc;
+}
+.d1 {
+    width: 960px;
+    height: 200px;
+    background-color: orange;
+    /*margin: 20px;*/
+}
+.d2 {
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    /*margin: 20px;*/
+}
+
+#w1 {
+    color:red;
+}
+
+#w1:hover {
+color: blue;
+-webkit-transition: 2s;
+transition: 2s;
+}
+#w1:hover {
+    color: blue;
+    -webkit-transition: 2s;
+    transition: 2s;
+}
+#w1 {
+    margin-right: 20px;
+    color:red;
+    -webkit-transition: 2s;
+    transition: 2s;
+    font-size: 40px;
+}

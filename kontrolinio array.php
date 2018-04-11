@@ -30,7 +30,7 @@ echo '<table>';
 		foreach ($m as $darb){
 	echo '<tr>';
 		echo '<td>' . ++$n . '</td>';
-		echo '<td>' . $darb['vardas'] . '</td';
+		echo '<td>' . $darb['vardas'] . '</td>';
 		echo '<td>' . $darb['moteris'] . '</td>';
 		echo '<td>' . $darb['patiekalas'] .'</td>';
 	echo '</tr>';

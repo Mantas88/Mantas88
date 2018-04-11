@@ -1,0 +1,42 @@
+body{
+    background-color: #ededed;
+
+}
+
+.main{
+    display: flex;
+}
+
+.article{
+    background-color: white;
+    padding: 20px;
+    width: 260px;
+    margin-right: 20px;
+    border-top: 5px solid #ddd;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+.article:hover{
+    border-color: #2972fa;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    margin-top: -3px;
+}
+
+.text-box{
+    width: 100%;
+    min-height: 350px;
+    background-color: orange;
+    font-size: verdana;
+    padding: 1px;
+}
+
+.article h1{
+    font-family: 'Oswald', sans-serif;
+    color: #2972fa;
+}
+.photo{
+    width: 45%;
+    float: right;
+    padding-right: 19px;
+}
