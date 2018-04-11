@@ -1,0 +1,69 @@
+.container{
+	width: 760px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px;
+	margin-top: 50px;
+	background: #fff;
+	border: 1px solid #ddd;
+}
+
+body{
+	background-image: url(../img/bg.jpg);
+}
+
+h1{
+	font-family: 'Gugi', cursive;
+	text-align: center;
+}
+
+hr {
+    overflow: visible; /* For IE */
+    height: 30px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+}
+hr:before { /* Not really supposed to work, but does */
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: black;
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+}
+
+.txt-field, .select-field{
+	display: block;
+}
+
+form label{
+	font-size: 12px;
+	font-family: 'Gugi', cursive;
+}
+
+.mygtukas{
+	margin-top: 20px;
+	padding: 5px 15px;
+	background: #2671c1;
+	color: #fff;
+	border: 1px solid #265f9c;
+	-webkit-transition: 0.5s;
+	transition: 0.5s;
+
+}
+
+.mygtukas:hover{
+	background: #6e97c3;
+	color: #fff;
+	border: 1px solid #265f9c;
+	-webkit-transition: 0.5s;
+	transition: 0.5s;
+}
+
+.select-field{
+	padding: 5px 15px;
+}

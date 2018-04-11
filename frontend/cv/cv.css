@@ -1,0 +1,32 @@
+.photo {
+    width: 200px;
+    margin-left: 90%;
+}
+.plotis{
+    border-collapse: collapse;
+    width: 90%;
+}
+.container {
+    width: 30%;
+    text-align: center;
+}
+.list{
+    text-align: left;
+}
+.listas2 {
+    width: 500px;
+    text-align: left;
+    border: 1px  dotted;
+    padding: 30px;
+    margin: 60px;
+}
+.taskai, table td {
+    order-collapse: collapse;
+    width: 32%;
+    border-bottom: 1px dotted black;
+}
+.blabla {
+    display: table;
+    margin: auto;
+    border: solid 1px black;
+}

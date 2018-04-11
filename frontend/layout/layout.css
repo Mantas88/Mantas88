@@ -1,0 +1,55 @@
+#header{
+    height: 100px;
+    background-color: #333333;
+    margin: 0px 10px 0 10px;
+}
+
+#main{
+    width: 960px;
+    /*height: 100px;*/
+    background-color: #efefef;
+    margin: 50px auto;
+    min-height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#footer{
+    height: 100px;
+    background-color: #333333;
+}
+#photo {
+    width: 100%;
+}
+body {
+    background-image: url("tic-tac-toe.png");
+}
+#naujiena{
+    width: 640px;
+    min-height: 100px;
+    background-color: #3B5998;
+}
+#reklama {
+    width: 320px;
+    min-height: 100px;
+    background-color: dodgerblue;
+}
+.article {
+    width: 320px;
+    min-height: 100px;
+    background-color: red;
+}
+.article2 {
+    width: 320px;
+    min-height: 100px;
+    background-color: green;
+}
+.article3 {
+    width: 320px;
+    min-height: 100px;
+    background-color: orange;
+}
+
+.flex {
+    display: flex;
+}

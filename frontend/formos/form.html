@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Forma</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Gugi" rel="stylesheet">
+
+</head>
+<body>
+
+<div class="container">
+	<h1>Anketa</h1>
+	<hr>
+	<form>
+
+		<label for="vardas">Vardas:</label>
+		<input type="text" name="vardas" id="vardas" placeholder="Vardas" required="required" class="txt-field">
+
+		<label for="pavarde">Pavarde:</label>
+		<input type="text" name="pavarde" id="pavarde" placeholder="Pavarde" required="required" class="txt-field">
+
+		<label for="miestas">Miestas:</label>
+		<input type="text" name="miestas" id="miestas" placeholder="Miestas" class="txt-field">
+
+		<label for="amzius">Gimimo diena:</label>
+		<input type="date" name="amzius" id="amzius" class="txt-field">
+
+	<label for="salis">Salis:</label>
+	<select class="select-field" id="salis" name="salis">
+  		<option value="LT">Lithuania</option>
+  		<option value="LV">Latvia</option>
+ 		 <option value="EE">Estonia</option>
+ 		 <option value="RU">Russia</option>
+ 		 <option value="DK">Denmark</option>
+ 		 <option value="PL">Poland</option>
+	</select>
+
+	<div>
+		<input type="radio" name="lytis" id="r1" value="vyras"><label for="r1">Vyras</label>
+		<input type="radio" name="lytis" id="r2" value="moteris"><label for="r2">Moteris</label>
+
+	</div>
+
+	<div>
+		<input type="checkbox" id="t_n_c" name="t_n_c" value="true">
+		<label for="t_n_c">Accept Terms and conditions</label>
+	</div>
+
+	<button class="mygtukas" type="submit"><i class="fas fa-paper-plane"></i> Vykdyti</button>
+
+	</form>
+
+</div>
+<textarea name="message" id="message">
+                   At w3schools.com you will learn how to make a website. We offer free tutorials in all web development technologies.
+               </textarea>
+</div>
+
+	<script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
+</body>
+</html>
